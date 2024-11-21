@@ -64,14 +64,13 @@ Refer to the `hardware_setup_pic.jpeg` for the physical connections.
 ## 5. **Run MQTT Subscriber**
 Run the Python script to subscribe to the MQTT topic and store predictions:
 
-```bash
 python3 mqtt.py
 ---
 
-## 6. **Train and Deploy Machine Learning Models**
+## 6. Train and Deploy Machine Learning Models
 
-### Train the models using the dataset:
-```bash
+ Train the models using the dataset:
+
 python3 fertilizer_recommendation_with_metrics.py
 
 ## 7.Convert the TNN model to TFLite for efficient deployment:
@@ -83,16 +82,16 @@ python3 model.py
 # Set Up Web Interface
 
 ## 9. Navigate to the `web-interface` folder:
-   ```bash
+   "```bash"
    cd web-interface
 
 
-**Acknowledgments**
+## **Acknowledgments**
 
 Special thanks to the open-source community for providing tools and libraries.
 Inspired by advancements in IoT and machine learning for agriculture.
 
-**Authors**
+## **Authors**
 Vishal Kumar
 Abhishek Kumar
 Pavan kumar Ponnaganti
